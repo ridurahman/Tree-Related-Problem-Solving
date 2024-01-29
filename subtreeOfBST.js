@@ -85,3 +85,9 @@ let root2 = buildBST(tree2);
 let node2 = search(root2, val2);
 let subTree2 = bfsTraversal(node2);
 console.log(subTree2);
+
+/* 
+Time Complexity: Time complexity of bfsTraversal function is O(N) (Ignoring internal complexity of shift() operation), where N is the number of nodes in the subtree.
+
+Space Complexity: O(N) where N is the number of nodes in the subtree.
+*/

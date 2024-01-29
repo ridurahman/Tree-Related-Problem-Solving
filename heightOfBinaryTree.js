@@ -47,6 +47,8 @@ const values2 = [1, null, 2];
 const root2 = buildBinaryTree(values2);
 console.log(maxHeight(root2));
 
-/* Time Complexity: Time complexity of maxHeight function is O(N). For buildBinaryTree function, time complexity is O(N^2) as shift() method has O(N) and it is inside a while loop.
-     Space Complexity: O(N) as there is recursion.
-  */
+/* 
+Time Complexity: Time complexity of maxHeight function is O(N). For buildBinaryTree function, time complexity is O(N^2) as shift() method has O(N) and it is inside a while loop.
+
+Space Complexity: O(N) as there is recursion.
+*/
